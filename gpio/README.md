@@ -4,7 +4,13 @@
 
 C++ Interface with ODROID/Raspberry PI GPIO Pins
 
-Example Usage:
+Build:
+
+```bash
+make
+```
+
+Usage:
 
 ```bash
 ./gpio <PIN> <IN|OUT>
