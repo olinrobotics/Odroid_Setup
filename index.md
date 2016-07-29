@@ -1,7 +1,7 @@
 ---
 title: Odroid
 layout: template
-filename: odroid_info
+filename: index
 ---
 
 # Odroid and Inter Computer Communication Documentation
