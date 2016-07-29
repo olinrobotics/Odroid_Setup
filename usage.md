@@ -1,5 +1,5 @@
 ---
-title: Using The Odroid
+title: Usage
 layout: template
 filename: usage 
 --- 

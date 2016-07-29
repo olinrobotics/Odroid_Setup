@@ -1,5 +1,5 @@
 ---
-title: Setting Up the SD Card 
+title: SD Card
 layout: template
 filename: sd_card
 --- 

@@ -1,5 +1,5 @@
 ---
-title: Odroid
+title: Index 
 layout: template
 filename: index
 ---

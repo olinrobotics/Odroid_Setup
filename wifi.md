@@ -1,5 +1,5 @@
 ---
-title: Wifi
+title: WiFi
 layout: template
 filename: wifi
 --- 

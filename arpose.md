@@ -1,5 +1,5 @@
 ---
-title: ARPOSE
+title: AR Pose
 layout: template
 filename: arpose
 --- 
