@@ -8,6 +8,7 @@ The repository also includes a few basic example files for using the Odroid
 ## What to do with this repository
 - Clone this repository to the home directory on both the Odroid and your computer
 - Run The Following Script to automate the setup:
+
    ```bash
    echo 'export ROS_SETUP_PATH="${HOME}/Odroid_Setup/ros"' >> ~/.bashrc
    echo 'source ${ROS_SETUP_PATH}/setup_aliases.sh' >> ~/.bashrc
