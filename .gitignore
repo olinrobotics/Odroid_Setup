@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/git,linux,vim
+# Created by https://www.gitignore.io/api/git,linux,vim,jekyll
 
 ### Git ###
 *.orig
@@ -29,3 +29,9 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata

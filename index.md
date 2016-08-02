@@ -6,7 +6,7 @@ filename: index
 
 # Odroid and Inter Computer Communication Documentation
 
-## Contents
+## Documentation Links with Descriptions
 - [Setting Up SD Card](sd_card)
 - [Using the Odroid](usage)
 - [Odroid and ROS](ros)
@@ -14,6 +14,7 @@ filename: index
 - [PWM on odroid](pwm)
 - [Setup Wifi Dongle](wifi)
 - [Setup arpose](arpose)
+- [Accessing GPS Data](gps)
 
 ## Useful Links
 - [flashing os images to sd cards](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
