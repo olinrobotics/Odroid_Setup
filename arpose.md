@@ -4,6 +4,13 @@ layout: template
 filename: arpose
 --- 
 
+## Demo
+
+<video controls width="100%" height="100%">
+	Your Browser Does Not Support The Video Tag.
+	<source src="videos/arpose.mp4" type="video/mp4">
+</video>
+
 ## Setup ARPOSE 
 
 ### Installing AR_POSE
