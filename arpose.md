@@ -101,38 +101,7 @@ filename: arpose
    catkin_make --only-pkg-with-deps artoolkit
    ```
 
-8. In order to avoid inexplicable crashes, comment out everything related to ar_multi.
-
-   ```bash
-   roscd ar_pose
-   vim CMakeLists.txt
-   ```
-
-   It should look like:
-
-   ```bash
-   #add_executable(ar_multi
-   #	src/ar_multi.cpp
-   #	src/object.cpp
-   #)
-   #target_link_libraries(ar_multi
-   #	${catkin_LIBRARIES}
-   #)
-   #add_dependencies(ar_multi
-   #	${PROJECT_NAME}_generate_messages_cpp
-   #	${artoolkit_EXPORTED_TARGETS}
-   #)
-   
-   install(TARGETS ar_single
-     RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-   )
-   
-   #install(TARGETS ar_multi
-   #  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-   #)
-   ```
-
-9. Make the package with flags to remove the whitelist for artoolkit.
+8. Make the package with flags to remove the whitelist for artoolkit.
 
    ```bash
    cd ~/catkin_ws
