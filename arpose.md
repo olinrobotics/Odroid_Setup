@@ -14,7 +14,7 @@ filename: arpose
 ## Setup ARPOSE 
 
 ### Installing AR_POSE
-1. If you plan on visualizing the output of ar_pose with rviz, you must fix libpcre:
+1. If you plan on visualizing the output of ar_pose with rviz, you must fix libpcre (note that this only applies to ODROID C1):
 
    ```bash
    export lib_src="http://ports.ubuntu.com/pool/main/p/pcre3"
