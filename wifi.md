@@ -32,7 +32,7 @@ filename: wifi
    echo -e "\nauto wlan0 \niface wlan0 inet dhcp \n\twpa-ssid OLIN-ROBOTICS\n\twpa-psk R0B0TS-RULE" >> /etc/network/interfaces
    ```
 
-5. Configure the WPA credentials for your network.
+5. Configure the WPA credentials for your network. Enter the password when prompted.
 
    ```bash
    wpa_passphrase  OLIN-ROBOTICS >> /etc/wpa_supplicant/wpa_supplicant_OLIN-ROBOTICS.conf 
