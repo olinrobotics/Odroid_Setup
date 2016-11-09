@@ -17,11 +17,13 @@ ssh is a method of opening a terminal on another computer.  It is built in for l
 
 #### Find IP address
 In order to ssh into the odroid, you need to know its IP address. You can do this by connecting the odroid to a network, then connecting to that network yourself, finding its IP address, and connecting, but the simpler method is to connect the odroid directly to your computer with an ethernet cable.  You then need to setup an ethernet connection on your computer to share internet to other computers (from linux):
+
 - click on the wifi symbol in the top right
 - select edit connections
 - click add, then select ethernet connection
 - go to `IPv4 Settings` and select `Shared to other computers` from the drop down menu
 - save the connection
+
 Now, connect an ethernet chord between your computer and the odroid, and select your new network.  Use `ifconfig` to find your IP address on the new network (should end with .0.1), then use `nmap ##.##.##.0/24` with the first three sections of the IP address you just found to find all IP address on that network.
 
 #### SSH in
