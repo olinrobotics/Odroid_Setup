@@ -13,22 +13,33 @@ The repository also includes a few basic example files for using the Odroid
    git clone git@github.com:olinrobotics/Odroid_Setup.git
    ```
 
-- Run the following lines in your terminal to automate the setup:
+- Run the following lines in the terminal on the odroid to automate the setup:
 
    ```bash
    echo 'source ${HOME}/Odroid_Setup/ros/setup.sh' >> ~/.bashrc
    source ~/.bashrc
    ```
 
-   Now all the setup should run automatically.
+   Now all the odroid setup should run automatically.
+
+- Run the following lines in your terminal to set some convenient aliases:
+	```bash
+	echo 'source ${HOME}/Odroid_Setup/ros/setup_aliases.sh
+	source ~/.bashrc
+	```
+
+	Now you get two convenient aliases for setting ROS related IP addresses on your computer.
 
 ### What does this do
-In order to run ROS on the odroid and access it from your computer, you need to set the variables `ROS_MASTER_URI` and `ROS_IP` to reference the odroid's IP address as seen from your computer (as opposed to 127.0.0.1).  The shell scripts in this repository (run by `setup.sh`) find the IP address you most likely want to use and set these variables. the line `source ${HOME}/Odroid_Setup/ros/setup.sh` tells the odroid to run these scripts every time a new terminal is opened.
+In order to run ROS on the odroid and access it from your computer, you need to set the variables `ROS_MASTER_URI` to reference the odroid's IP address as seen from your computer (as opposed to 127.0.0.1), and `ROS_IP` to the IP address of your computer as seen by the odroid (note, `ROS_IP` only matters if you are running `roscore` on your computer).  The shell scripts in this repository (run by `setup.sh`) find the IP address you most likely want to use and set these variables, however, it's assumptions only work well for the odroid. the line `source ${HOME}/Odroid_Setup/ros/setup.sh` tells the odroid to run these scripts every time a new terminal is opened.
 
-On your computer, the script `setup.sh` just defines a few aliases for your convenience:
-- `ros_set_master_uri <ip>` sets the variable `ROS_MASTER_URI` to reference the input IP address
-- `ros_set_vars <ip>` sets both `ROS_MASTER_URI` and `ROS_IP` to reference the input IP address
-You need to run one of these commands in each new terminal you open on your computer to communicate with a roscore on the odroid (either will work).
+On your computer, the script `setup_aliases.sh` just defines a few aliases for your convenience:
+- `set_ros_master_uri <ip>` sets the variable `ROS_MASTER_URI` to reference the input IP address
+  - this should always reference the IP address of the computer running roscore
+- `set_ros_ip <ip>` sets `ROS_IP` to reference the input IP address
+  - this should always reference the IP address of the computer you run it from
+- `set_ros_vars <ip>` sets both `ROS_MASTER_URI` and `ROS_IP` to reference the input IP address.
+You need to run these commands in every new terminal you open on your computer (if roscore is on the odroid, you only need to run `set_ros_master_uri <ip>`.
 
 If the roscore is running on your computer but you want the odroid to communicate it, then you need to run `set_ros_vars <your_ip>` in each new terminal you open.
 

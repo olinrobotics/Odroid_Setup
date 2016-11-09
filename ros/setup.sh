@@ -2,10 +2,10 @@ function ros_get_ip(){
 	echo $(ifconfig $1 2>/dev/null | awk '/inet addr:/ {print $2}' | sed 's/addr://')
 }
 
-function ros_set_master_uri(){
+function set_ros_master_uri(){
 	export ROS_MASTER_URI=http://$1:11311
 }
-function ros_set_vars(){
+function set_ros_vars(){
 	export ROS_IP=$1
 	ros_set_master_uri $ROS_IP
 	echo "ROS_IP =" $ROS_IP
@@ -27,7 +27,7 @@ function ros_find_useful_ip(){
 
 
 function ros_auto_set_vars(){
-	ros_set_vars $(ros_find_useful_ip)
+	set_ros_vars $(ros_find_useful_ip)
 }
 
 ros_auto_set_vars

@@ -7,3 +7,8 @@ function set_ros_ip(){
   export ROS_IP=$1
   echo "set ROS IP to $1"
 }
+
+function set_ros_vars(){
+  set_ros_master_uri $1
+  set_ros_ip $1
+}
