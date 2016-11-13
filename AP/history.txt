@@ -1,0 +1,1000 @@
+ 1014  iwconfig
+ 1015  ping 169.254.34.7
+ 1016  nmap 169.254.34.0/24
+ 1017  x
+ 1018  sudo ip link set wlan1 down
+ 1019  sudo s-
+ 1020  sudo -s
+ 1021  x
+ 1022  ls
+ 1023  ifconfig
+ 1024  iwconfig
+ 1025  ifconfig
+ 1026  sudo service networking start
+ 1027  ifconfig
+ 1028  iwconfig
+ 1029  sudo iwconfig wlan1 key 1234567890
+ 1030  sudo iwconfig wlan1 channel 4
+ 1031  sudo ip link set wlan1 up
+ 1032  ip addr
+ 1033  iwconfig
+ 1034  ifconfig
+ 1035  ifconfig | grep key
+ 1036  ifconfig | grep Key
+ 1037  iwconfig | grep Key
+ 1038  iwconfig |& grep Key
+ 1039  ifconfig
+ 1040  ip addr
+ 1041  ip route
+ 1042  ip route add default_gateway 169.254.34.0
+ 1043  ip route dev wlan1 add default_gateway 169.254.34.0
+ 1044  ip route wlan1 add default via 169.254.34.0
+ 1045  sudo ip route add default via 169.254.34.0 dev eth1
+ 1046  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1047  ip route
+ 1048  ifconfig
+ 1049  iw list | grep "interface modes" -A 5
+ 1050  sudo iw list | grep "interface modes" -A 5
+ 1051  history | grep ip route
+ 1052  history | grep route
+ 1053  iwlist | grep ad-hoc
+ 1054  iwlist scan | grep ad-hoc
+ 1055  iwlist scan | grep ad-hoc -A 5 -B 5
+ 1056  iwlist scan | grep ad-hoc -A 10 -B 5
+ 1057  iwlist scan | grep ad-hoc -A 10 -B 2
+ 1058  iwlist scan | grep ad-hoc -A 10 -B 1
+ 1059  ls
+ 1060  ifconfig
+ 1061  iwconfig
+ 1062  sudo service --status-all |& grep network
+ 1063  sudo service networking restart
+ 1064  ifconfig
+ 1065  iwconfig
+ 1066  ls
+ 1067  history
+ 1068  ps -ef | grep if
+ 1069  ps -ef | grep network
+ 1070  x
+ 1071  ifconfig
+ 1072  iwconfig
+ 1073  sudo ifconfig wlan1 down && sudo ifconfig wlan1 up
+ 1074  ifconfig
+ 1075  iwconfig
+ 1076  x
+ 1077  ifconfig
+ 1078  sudo service network-manager stop
+ 1079  sudo -s
+ 1080  sudo ip link set wlan1 down
+ 1081  sudo iwconfig wlan1 mode ad-hoc
+ 1082  sudo iwconfig wlan1 channel 4
+ 1083  sudo iwconfig wlan1 essid 'ad-hoc'
+ 1084  sudo iwconfig wlan1 key 1234567890
+ 1085  sudo ip link set wlan1 up
+ 1086  sudo dhclient wlan1
+ 1087  sudo ip addr add 169.254.34.1/16 dev wlan1
+ 1088  sudo ip addr add 169.254.34.2/16 dev wlan1
+ 1089  ip addr
+ 1090  sudo ip addr flush dev wlan1
+ 1091  sudo ip addr add 169.254.34.2/16 dev wlan1
+ 1092  ifconfig
+ 1093  ip addr
+ 1094  iwconfig
+ 1095  history > history.txt
+ 1096  vim history.txt 
+ 1097  lx
+ 1098  ls
+ 1099  sudo reboot
+ 1100  ls
+ 1101  exit
+ 1102  history
+ 1103  ls
+ 1104  vim history.txt
+ 1105  sudo vim history.txt
+ 1106  ls
+ 1107  cat history.txt | xclip -selection clipboard
+ 1108  sudo ip link set wlan1 down
+ 1109  sudo iwconfig wlan1 mode ad-hoc
+ 1110  sudo iwconfig wlan1 channel 4
+ 1111  sudo iwconfig wlan1 essid 'ad-hoc'
+ 1112  sudo iwconfig wlan1 key 1234567890
+ 1113  sudo ip link set wlan1 up
+ 1114  sudo ip addr add 169.254.34.2/16 dev wlan1
+ 1115  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1116  history | grep flush
+ 1117  ls
+ 1118  rm ad-hoc_instructions.txt~
+ 1119  vim ad-hoc_instructions.bash
+ 1120  ls
+ 1121  ifconfig
+ 1122  sudo service network-manager restart
+ 1123  ls
+ 1124  ifconfig
+ 1125  sudo ifdown wlan1 && sudo ifup wlan1
+ 1126  ls
+ 1127  x
+ 1128  sudo ip link set wlan1 down
+ 1129  history | grep route
+ 1130  ifconfig
+ 1131  iwconfig
+ 1132  sudo iwlist scan | grep ad-hoc -A 10 -B 1
+ 1133  iwconfig
+ 1134  ifconfig
+ 1135  ip addr
+ 1136  ip route
+ 1137  iwconfig
+ 1138  sudo iwlist scan | grep ad-hoc -A 10 -B 1
+ 1139  nmap 169.254.34.0/16
+ 1140  nmap 169.254.34.0/24
+ 1141  ls
+ 1142  vim history.txt
+ 1143  mv history.txt ad-hoc_instructions.txt
+ 1144  ls
+ 1145  vim ad-hoc_instructions.txt 
+ 1146  ls
+ 1147  vim ad-hoc_instructions.txt 
+ 1148  mv ad-hoc_instructions.txt ad-hoc_instructions.bash
+ 1149  ls
+ 1150  chmod +x ad-hoc_instructions.bash
+ 1151  ls
+ 1152  ./ad-hoc_instructions.bash 
+ 1153  vim ad-hoc_instructions.
+ 1154  vim ad-hoc_instructions.bash
+ 1155  ./ad-hoc_instructions.bash 
+ 1156  vim ad-hoc_instructions.bash
+ 1157  ./ad-hoc_instructions.bash 
+ 1158  vim ad-hoc_instructions.bash
+ 1159  ip addr
+ 1160  ip route
+ 1161  vim ad-hoc_instructions.bash
+ 1162  ./ad-hoc_instructions.bash
+ 1163  vim ad-hoc_instructions.bash
+ 1164  ./ad-hoc_instructions.bash
+ 1165  vim ad-hoc_instructions.bash
+ 1166  ./ad-hoc_instructions.bash
+ 1167  vim ad-hoc_instructions.bash
+ 1168  ./ad-hoc_instructions.bash
+ 1169  vim ad-hoc_instructions.bash
+ 1170  ip addr
+ 1171  ip route
+ 1172  sudo ip route flush dev wlan1
+ 1173  ip route
+ 1174  sudo ip addr flush dev wlan1
+ 1175  ip ddr
+ 1176  ip addr
+ 1177  vim ad-hoc_instructions.bash
+ 1178  ./ad-hoc_instructions.bash
+ 1179  vim ad-hoc_instructions.
+ 1180  vim ad-hoc_instructions.bash
+ 1181  cat ad-hoc_instructions.bash | tail -n 2
+ 1182  cat ad-hoc_instructions.bash | tail -n 2 | xclip -selection clipboard
+ 1183  sudo ip addr add 169.254.34.2/24 dev wlan1
+ 1184  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1185  cat ad-hoc_instructions.bash | tail -n 4 | xclip -selection clipboard
+ 1186  sudo ip route flush dev wlan1
+ 1187  sudo ip addr flush dev wlan1
+ 1188  sudo ip addr add 169.254.34.2/24 dev wlan1
+ 1189  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1190  ip route
+ 1191  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1192  ip route
+ 1193  ip route flush
+ 1194  ip route flush dev wlan1
+ 1195  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1196  ip route
+ 1197  sudo ip route add default via 169.254.34.0 dev wlan1
+ 1198  ip route add default via 169.254.34.0 dev wlan1
+ 1199  ip route flush wlan1
+ 1200  ip route flush dev wlan1
+ 1201  ip route
+ 1202  ip route add default via 169.254.34.0 dev wlan1
+ 1203  ip addr
+ 1204  sudo poweroff
+ 1205  ifconfig
+ 1206  iwconfig
+ 1207  ifconfig
+ 1208  ls
+ 1209  ifconfig
+ 1210  iwconfig
+ 1211  ip addr
+ 1212  ip route
+ 1213  ip route show
+ 1214  ip route
+ 1215  ip addr
+ 1216  sudo ip link set wlan1 down
+ 1217  sudo -s
+ 1218  ifconfig
+ 1219  ifconfig wlan0 up
+ 1220  sudo wlan0 up
+ 1221  ifconfig wlan0 up
+ 1222  sudo ifconfig wlan0 up
+ 1223  ifconfig
+ 1224  sudo ifup wlan0
+ 1225  vim /etc/network/interfaces
+ 1226  sudo ifup wlan0
+ 1227  ifconfig
+ 1228  iwconfig
+ 1229  ifconfig
+ 1230  ps -ef | grep ifup
+ 1231  ifconfig
+ 1232  sudo reboot
+ 1233  df -h
+ 1234  x
+ 1235  config
+ 1236  ifconfig
+ 1237  ls
+ 1238  cd gps
+ 1239  ls
+ 1240  cd ..
+ 1241  ls
+ 1242  cdDoc
+ 1243  cd Documents/
+ 1244  ls
+ 1245  git status
+ 1246  git clone git@github.com:olinrobotics/Odroid_Setup.git
+ 1247  git clone git@github.com:olinrobotics/OdroidSetup.git
+ 1248  git clone git@github.com:olinrobotics/Odroid_Setup.git
+ 1249  git clone https://github.com/olinrobotics/Odroid_Setup.git
+ 1250  cd Odroid_Setup/
+ 1251  ls
+ 1252  cd ros
+ 1253  ls
+ 1254  git checkout gh-pages 
+ 1255  ls
+ 1256  cd ..ls
+ 1257  cd ..
+ 1258  ls
+ 1259  vim arpose.md
+ 1260  vim arpose.md 
+ 1261  roscore
+ 1262  dpkg -l | ros-indigo
+ 1263  dpkg -l | grep ros-indigo
+ 1264  ls
+ 1265  cd ..
+ 1266  ls
+ 1267  sudo poweroff
+ 1268  ls
+ 1269  cd sketchbook/
+ 1270  ls
+ 1271  cd libraries/
+ 1272  ls
+ 1273  cd ..
+ 1274  echo $ROS_ROOT
+ 1275  cd /opt/ros/indigo/share/ros
+ 1276  ls
+ 1277  cd core
+ 1278  ls
+ 1279  cd rosbuild/
+ 1280  ls
+ 1281  ..
+ 1282  cd ..
+ 1283  ls
+ 1284  cd geometry_msgs/
+ 1285  ls
+ 1286  cd .
+ 1287  cd ..
+ 1288  ls
+ 1289  cd include/
+ 1290  ls
+ 1291  cd geometry_msgs/
+ 1292  ls
+ 1293  x
+ 1294  rostopic list
+ 1295  rostopic info /visualization_marker
+ 1296  rostopic type visualization_msgs/Marker
+ 1297  rostopic type /visualization_marker
+ 1298  rostopic find visualization_msgs/Marker
+ 1299  rostopic info visualization_msgs/Marker
+ 1300  rostopic echo /visualization_marker
+ 1301  vim transform.py
+ 1302  vim transform.py 
+ 1303  python transform.py 
+ 1304  vim transform.py 
+ 1305  python
+ 1306  cd /opt/ros/indigo/lib/python2.7/dist-packages/geometry_msgs/
+ 1307  ls
+ 1308  vim __init__.py
+ 1309  vim __init__.pyc
+ 1310  cd msg
+ 1311  ls
+ 1312  cd ..
+ 1313  find -iname "frame.py"
+ 1314  grep -r "import frame
+ 1315  grep -r "import frame"
+ 1316  grep -ir "import frame"
+ 1317  grep -ir "fixedframe"
+ 1318  grep -ir "fixed frame"
+ 1319  vim visualization_msgs/msg/_InteractiveMarkerInit.py
+ 1320  rostopic list
+ 1321  ls
+ 1322  cd rviz/
+ 1323  ls
+ 1324  vim __init__.py
+ 1325  roscd rviz
+ 1326  ls
+ 1327  cd ..l
+ 1328  cd ..
+ 1329  ls
+ 1330  python
+ 1331  x
+ 1332  ls /dev/tty*
+ 1333  dmesg | tty
+ 1334  dmesg | grep tty
+ 1335  rostopic list
+ 1336  rviz
+ 1337  rostopic list
+ 1338  x
+ 1339  rostopic list
+ 1340  rostopic echo /pose
+ 1341  rostopic echo /orientation
+ 1342  top
+ 1343  rviz
+ 1344  rosrun rviz zrviz
+ 1345  rosrun rviz rviz
+ 1346  x
+ 1347  ls
+ 1348  cd Documents/
+ 1349  ls
+ 1350  mkdir Arduino
+ 1351  cd Arduino/
+ 1352  df -h
+ 1353  x
+ 1354  sudo apt-cache search libastyle
+ 1355  wget https://github.com/arduino/Arduino/archive/master.zip
+ 1356  ls
+ 1357  mv master.zip ~/Documents/Arduino/
+ 1358  cd Documents/Arduino/
+ 1359  ls
+ 1360  unzip master.zip 
+ 1361  cd Arduino-master/build
+ 1362  ls
+ 1363  vim build.xml
+ 1364  ant
+ 1365  ant run
+ 1366  ldconfig -v | grep listSerials
+ 1367  dpkg -l | grep listSerials
+ 1368  cd ~/Documents/Arduino/Arduino-master/build/linux/work/lib/
+ 1369  ls
+ 1370  cd ../../..
+ 1371  ls
+ 1372  vim build.xml
+ 1373  df -h
+ 1374  sudo apt-get autoremove
+ 1375  cd ~/Documents && rm -rf Arduino
+ 1376  df -h
+ 1377  x
+ 1378  sudo apt-cache search arduino
+ 1379  audo apt-get purge arduino
+ 1380  sudo apt-get purge arduino
+ 1381  sudo apt-get install libastylej-jni ant
+ 1382  sudo apt-get update
+ 1383  sudo apt-get install ant
+ 1384  sudo apt-get install libastylej
+ 1385  df -h
+ 1386  dpkg -l | grep astyle
+ 1387  ldconfig -v | grep astyle
+ 1388  sudo poweroff
+ 1389  ls
+ 1390  ./a.out 
+ 1391  ls
+ 1392  lt 
+ 1393  ls -lrth
+ 1394  ./test
+ 1395  ./test.o
+ 1396  rm a.out
+ 1397  rm test.o
+ 1398  x
+ 1399  sudo poweroff
+ 1400  x
+ 1401  ifconfig
+ 1402  vim ~/.bashrc
+ 1403  cd ..
+ 1404  ls
+ 1405  cd Documents/
+ 1406  ls
+ 1407  cd Odroid_Setup/
+ 1408  ls
+ 1409  git pull
+ 1410  ls
+ 1411  vim ros.md 
+ 1412  x
+ 1413  cd ~/Arduino/
+ 1414  ls
+ 1415  cd libraries/
+ 1416  ls
+ 1417  cd ..
+ 1418  pgrep screen
+ 1419  kill 5510
+ 1420  pgrep screen
+ 1421  rostopic list
+ 1422  rostopic echo /chatter
+ 1423  rostopic list
+ 1424  x
+ 1425  ls
+ 1426  roscore
+ 1427  arduino
+ 1428  df -h
+ 1429  ifconfig
+ 1430  ls
+ 1431  uname -r
+ 1432  uname -a
+ 1433  lsb_release -a
+ 1434  cd Downloads/
+ 1435  ls
+ 1436  df -h
+ 1437  ls
+ 1438  tar -xvfJ arduino-1.6.11-linuxarm.tar.xz 
+ 1439  tar --xz -xvf arduino-1.6.11-linuxarm.tar.xz 
+ 1440  ls
+ 1441  cd arduino-1.6.11/
+ 1442  ls
+ 1443  vim install.sh 
+ 1444  vim uninstall.sh 
+ 1445  ./install.sh 
+ 1446  ls
+ 1447  top
+ 1448  dmesg | tail -n 10
+ 1449  vim s
+ 1450  cd ~/catkin_ws/
+ 1451  ls
+ 1452  cd src
+ 1453  ls
+ 1454  cd ..
+ 1455  ls
+ 1456  echo ${ROS_DISTRO}
+ 1457  sudo apt-get install ros-${ROS_DISTRO}-rosserial ros-${ROS_DISTRO}-rosserial-python ros-${ROS_DISTRO}-rosserial-arduino
+ 1458  roscd rosserial
+ 1459  cd ..
+ 1460  ls rosserial*
+ 1461  echo rosserial*
+ 1462  roscd rosserial_arduino/
+ 1463  ls
+ 1464  cd ~/catkin_ws/
+ 1465  cd ~/sketchbook/libraries/
+ 1466  ls
+ 1467  rosrun rosserial_arduino make_libraries.py
+ 1468  rosrun rosserial_arduino make_libraries.py .
+ 1469  ls
+ 1470  cd ..
+ 1471  rosrun rosserial_python serial_node.py _port:=/dev/tty
+ 1472  rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0
+ 1473  screen /dev/ttyACM0
+ 1474  rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0
+ 1475  export ROS_IP=10.42.0.220
+ 1476  export ROS_MATER_URI=http://$ROS_IP:11311
+ 1477  echo $ROS_MATER_URI 
+ 1478  export ROS_MATER_URI=$ROS_MATER_URI 
+ 1479  echo $ROS_MASTER_URI 
+ 1480  export ROS_MASTER_URI=$ROS_MATER_URI 
+ 1481  echo $ROS_MASTER_URI 
+ 1482  rostopic list
+ 1483  rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0
+ 1484  x
+ 1485  ls
+ 1486  cd libraries/
+ 1487  ls
+ 1488  cd ros_lib/
+ 1489  ls
+ 1490  cd examples/
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  cd libraries/
+ 1497  ls
+ 1498  du
+ 1499  cp -r ros_lib/ ~/Arduino/libraries/
+ 1500  cd ..
+ 1501  ls
+ 1502  roscore
+ 1503  export ROS_IP=10.42.0.220
+ 1504  export ROS_MASTER_URI=http://10.42.0.220:11311
+ 1505  roscore
+ 1506  x
+ 1507  sudo poweroff
+ 1508  ls
+ 1509  cd 
+ 1510  cd Documents/
+ 1511  cd Odroid_Setup/
+ 1512  ls
+ 1513  git status
+ 1514  git checkout master
+ 1515  git status
+ 1516  ls
+ 1517  cd opencv/
+ 1518  ls
+ 1519  make
+ 1520  ls
+ 1521  cd build
+ 1522  ls
+ 1523  cd obj/
+ 1524  ls
+ 1525  cd ..
+ 1526  cd bin
+ 1527  ls
+ 1528  ./opencv 
+ 1529  ls
+ 1530  cd /
+ 1531  find -name 'haar*'
+ 1532  find -name 'haar*' 2>/dev/null
+ 1533  cd ~
+ 1534  find -name 'haar*' 2>/dev/null
+ 1535  cd testCam/opencv-basic/build/bin
+ 1536  l
+ 1537  ./opencv-basic 
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  cd ~/Documents/
+ 1542  ls
+ 1543  cd Odroid_Setup/
+ 1544  ls
+ 1545  cd opencv/
+ 1546  ls
+ 1547  cd build/bin
+ 1548  ls
+ 1549  cp ~/testCam/opencv-basic/build/bin/haarcascade_frontalface_alt.xml .
+ 1550  ls
+ 1551  ./opencv 
+ 1552  ls
+ 1553  cd ../../..
+ 1554  ls
+ 1555  cd ..
+ 1556  ls
+ 1557  cd ..
+ 1558  ls
+ 1559  cd Downloads/
+ 1560  ls
+ 1561  cd ..
+ 1562  ifconfig
+ 1563  ls
+ 1564  mv test-opencv.py ~/Documents/Odroid_Setup/opencv/
+ 1565  cd test-opencv.py ~/Documents/Odroid_Setup/opencv/
+ 1566  ls
+ 1567  cd ~/Documents/Odroid_Setup/opencv/
+ 1568  ls
+ 1569  cp build/bin/haarcascade_frontalface_alt.xml .
+ 1570  ls
+ 1571  ./test-opencv.py 
+ 1572  vim test-opencv.py 
+ 1573  ./test-opencv.py
+ 1574  vim test-opencv.py
+ 1575  ./test-opencv.py
+ 1576  ls
+ 1577  sudo poweroff
+ 1578  ls
+ 1579  rostopic list
+ 1580  echo $ROS_MASTER_URI
+ 1581  sudo poweroff
+ 1582  ls
+ 1583  rostopic list
+ 1584  export ROS_MASTER_URI=http://10.42.0.1:11311
+ 1585  ifconfig
+ 1586  export ROS_IP=10.42.0.220
+ 1587  rostopic list
+ 1588  rosrun nmea_navsat_driver nmea_serial_driver _port:=/dev/ttyACM0
+ 1589  echo $ROS_IP
+ 1590  echo $ROS_MASTER_URI
+ 1591  ifconfig
+ 1592  rosrun nmea_navsat_driver nmea_serial_driver _port:=/dev/ttyACM0
+ 1593  ping 10.7.28.17
+ 1594  ping 10.7.28.10
+ 1595  echo $ROS_MASTER_URI
+ 1596  export ROS_MASTER_URI=http://10.7.28.10:11311
+ 1597  rostopic list
+ 1598  ifconfig
+ 1599  export ROS_IP=10.42.0.220
+ 1600  rostopic list
+ 1601  rostopic pub /sth std_msgs/String "data: 'sss'" 
+ 1602  export ROS_IP=10.7.28.17
+ 1603  rostopic pub /sth std_msgs/String "data: 'sss'" 
+ 1604  exit
+ 1605  x
+ 1606  ifconfig
+ 1607  export ROS_IP=10.42.0.220
+ 1608  export ROS_MASTER_URI=http://10.42.0.1:11311
+ 1609  rostopic list
+ 1610  rosrun nmea_navsat_driver nmea_serial_driver _port:=/dev/ttyACM0
+ 1611  x
+ 1612  sudo poweroff
+ 1613  ls
+ 1614  rostopic list
+ 1615  export ROS_MASTER_URI=http://10.42.0.1:11311
+ 1616  export ROS_IP=10.42.0.220
+ 1617  rosrun nmea_navsat_driver nmea_serial_driver _port:=/dev/ttyACM0
+ 1618  sudo poweroff
+ 1619  ls
+ 1620  ifconfig
+ 1621  ifmetric
+ 1622  sudo ifmetric
+ 1623  sudo apt-cache search ifmetric
+ 1624  sudo apt-get install ifmetric
+ 1625  sudo ifmetric
+ 1626  sudo cat /etc/network/interfaces
+ 1627  route -n
+ 1628  ifconfig
+ 1629  ls
+ 1630  vim ad-hoc_instructions.bash
+ 1631  sudo lshw -C network
+ 1632  dmesg
+ 1633  lsusb
+ 1634  finddev
+ 1635  sudo lshw -C network
+ 1636  ifconfig
+ 1637  sudo route -n
+ 1638  vim /etc/network/interfaces
+ 1639  ip neigh
+ 1640  ifconfig
+ 1641  ls
+ 1642  vim ad-hoc_instructions.bash
+ 1643  ls
+ 1644  vim ad-hoc_instructions.bash
+ 1645  source ad-hoc_instructions.bash
+ 1646  ifconfig
+ 1647  cat ad-hoc_instructions.bash
+ 1648  sudo iwconfig
+ 1649  sudo ifconfig
+ 1650  exit
+ 1651  ls
+ 1652  roscore
+ 1653  exit
+ 1654  ls
+ 1655  cd
+ 1656  exit
+ 1657  ifconfig
+ 1658  exit
+ 1659  ls
+ 1660  cp ad-hoc_instructions.bash ad-hoc_instructions.bash-bk
+ 1661  ls
+ 1662  sudo service dhcpd status
+ 1663  x
+ 1664  cd /etc/
+ 1665  ls
+ 1666  sudo vim udhcpd.conf
+ 1667  sudo cp udhcpd.conf udhcpd.conf.bk
+ 1668  ls
+ 1669  ls -lrth
+ 1670  cd ~
+ 1671  ls
+ 1672  mv hostapd.zip ~/Downloads/
+ 1673  cd Downloads/
+ 1674  ls
+ 1675  unzip hostapd.zip 
+ 1676  cd ho
+ 1677  ls
+ 1678  vim hostapd
+ 1679  ls
+ 1680  cd ../Documents/
+ 1681  ls
+ 1682  cd hostapd-rtl871xdrv/
+ 1683  ls
+ 1684  cd ..
+ 1685  ls
+ 1686  cd rt8192cu/
+ 1687  ls
+ 1688  make
+ 1689  sudo vim /etc/modprobe.d/blacklist
+ 1690  sudo vim /etc/modprobe.d/blacklist.conf 
+ 1691  ifconfig
+ 1692  sudo service hostapd status
+ 1693  pgerp udhcpd
+ 1694  pgrep udhcpd
+ 1695  pgrep hostapd
+ 1696  ifconfig -a
+ 1697  sudo service hostapd start
+ 1698  ls
+ 1699  pgrep hostapd
+ 1700  dmesg
+ 1701  ifconfig wlan1
+ 1702  sudo ifdown wlan1
+ 1703  sudo ifup wlan1
+ 1704  ifconfig
+ 1705  sudo vim /etc/network/interfaces
+ 1706  sudo ifdown wlan1
+ 1707  sudo ifup wlan1
+ 1708  ifconfig
+ 1709  sudo vim /etc/network/interfaces
+ 1710  sudo ifdown wlan1
+ 1711  sudo ifup wlan1
+ 1712  ls
+ 1713  ifconfig
+ 1714  iw list
+ 1715  sudo iw list
+ 1716  iwlist
+ 1717  sudo iwlist wlan1
+ 1718  sudo iwlist dev wlan1
+ 1719  ifconfig
+ 1720  iwlist
+ 1721  iwlist wlan1 ap
+ 1722  iwlist wlan1 accesspoints
+ 1723  cd /etc/hostapd/
+ 1724  ls
+ 1725  sudo vim hostapd.conf
+ 1726  ifconfig
+ 1727  iwconfig
+ 1728  dmesg | grep driver
+ 1729  ls
+ 1730  vim hostapd.conf
+ 1731  sudo vim hostapd.conf
+ 1732  cd ../default/hostapd
+ 1733  vim ../default/hostapd
+ 1734  sudo vim ../default/hostapd
+ 1735  sudo service hostapd start
+ 1736  dmesg | grep 8192
+ 1737  sudo apt-get install bridge-utils
+ 1738  sudo vim /etc/network/interfaces
+ 1739  sudo apt-get install hostapd udhcpd
+ 1740  ls
+ 1741  sudo vim hostapd.conf
+ 1742  sudo vim  ../default/hostapd
+ 1743  sudo vim ../udhcpd.conf 
+ 1744  ifconfig
+ 1745  sudo vim ../udhcpd.conf 
+ 1746  cd ../default/
+ 1747  ls
+ 1748  sudo vim udhcpd 
+ 1749  sudo vim /etc/network/interfaces
+ 1750  sudo vim ../hostapd/hostapd.conf
+ 1751  sudo vim hostapd
+ 1752  sudo update-rc.d hostapd enable
+ 1753  sudo update-rc.d udhcpd enable
+ 1754  sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+ 1755  cat /proc/sys/net/ipv4/ip_forward 
+ 1756  susb
+ 1757  lsusb
+ 1758  vim /etc/network/interfaces
+ 1759  sudo vim /etc/network/interfaces
+ 1760  sudo service hostapd start
+ 1761  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1762  sudo vim ../hostapd/hostapd.conf
+ 1763  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1764  sudo vim ../hostapd/hostapd.conf
+ 1765  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1766  ifconfig
+ 1767  sudo lshw -C network
+ 1768  iw list
+ 1769  sudo service hostapd start
+ 1770  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1771  sudo apt-get update
+ 1772  iw list
+ 1773  iwconfig wlan1
+ 1774  iw wlan0 info
+ 1775  iw dev wlan0 info
+ 1776  sudo apt install iw
+ 1777  sudo service hostapd restart
+ 1778  pgrep hostapd
+ 1779  dmesg | tail
+ 1780  ls
+ 1781  sudo vim hostapd
+ 1782  cd ..
+ 1783  sudo vim hostapd/hostapd.conf
+ 1784  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1785  sudo vim hostapd/hostapd.conf
+ 1786  ls
+ 1787  which hostapd
+ 1788  cd /usr/sbin
+ 1789  cp hostapd ~/
+ 1790  cp ~/Downloads/hostapd .
+ 1791  sudo cp ~/Downloads/hostapd .
+ 1792  chmod +x hostapd
+ 1793  sudo chmod +x hostapd
+ 1794  ./hostapd
+ 1795  sudo hostapd -d /etc/hostapd/hostapd.conf
+ 1796  ls
+ 1797  cd /etc/hostapd/
+ 1798  sudo vim hostapd.conf
+ 1799  sudo service hostapd restart
+ 1800  ls
+ 1801  hostapd -d hostapd.conf
+ 1802  sudo hostapd -d hostapd.conf
+ 1803  cd ~/Documents/
+ 1804  ls
+ 1805  git clone https://github.com/dz0ny/rt8192cu.git
+ 1806  git clone git@github.com:pritambaral/hostapd-rtl871xdrv.git
+ 1807  ls
+ 1808  git clone https://github.com/pritambaral/hostapd-rtl871xdrv.git
+ 1809  l
+ 1810  cd hostapd-rtl871xdrv/o
+ 1811  cp ~/hostapd /usr/sbin/hostapd
+ 1812  sudo cp ~/hostapd /usr/sbin/hostapd
+ 1813  pgrep hostapd
+ 1814  kill 4055
+ 1815  sudo kill -9 4055
+ 1816  ls
+ 1817  pgrep hostapd
+ 1818  wget w1.fi/releases/hostapd-2.6.tar.gz
+ 1819  ls
+ 1820  tart -xvzf hostapd-
+ 1821  tart -xvzf hostapd-2.6.tar.gz 
+ 1822  tar -xvzf hostapd-2.6.tar.gz 
+ 1823  ls
+ 1824  cd hostapd-2.6
+ 1825  ls
+ 1826  cat README 
+ 1827  sl
+ 1828  ls
+ 1829  vim COPYING 
+ 1830  cd src
+ 1831  ls
+ 1832  make
+ 1833  cd ~
+ 1834  ls
+ 1835  mv hostapd hostapd.orig
+ 1836  ls
+ 1837  back
+ 1838  ls
+ 1839  make
+ 1840  ls
+ 1841  sudo vim Makefile 
+ 1842  ls
+ 1843  sudo vim Makefile
+ 1844  ls
+ 1845  make
+ 1846  ls
+ 1847  ls -lrth
+ 1848  cd ap
+ 1849  ls
+ 1850  cd ..
+ 1851  cd drivers/
+ 1852  ls
+ 1853  cd ..
+ 1854  ls
+ 1855  cd ..
+ 1856  ls
+ 1857  cd hostapd/
+ 1858  ls
+ 1859  make
+ 1860  vim defconfig 
+ 1861  cd ..
+ 1862  ls
+ 1863  cd hostapd-rtl871xdrv/
+ 1864  ls
+ 1865  cd ..
+ 1866  wget https://github.com/jenssegers/RTL8188-hostapd/archive/v2.0.tar.gz
+ 1867  tar -zxvf v2.0.tar.gz
+ 1868  ls
+ 1869  cd RTL8188-hostapd-2.0/hostapd/
+ 1870  ls
+ 1871  sudo make
+ 1872  ls
+ 1873  ls -lrth
+ 1874  ls
+ 1875  ./hostapd -d /etc/hostapd/hostapd.conf
+ 1876  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1877  sudo vim /etc/hostapd/hostapd.conf
+ 1878  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1879  sudo vim /etc/hostapd/hostapd.conf
+ 1880  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1881  sudo vim /etc/hostapd/hostapd.conf
+ 1882  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1883  sudo vim /etc/hostapd/hostapd.conf
+ 1884  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1885  sudo vim /etc/hostapd/hostapd.conf
+ 1886  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1887  sudo vim /etc/hostapd/hostapd.conf
+ 1888  sudo ./hostapd -d /etc/hostapd/hostapd.conf
+ 1889  ls
+ 1890  which hostapd
+ 1891  cd ~
+ 1892  cp /etc/hostapd/hostapd.conf ~
+ 1893  back
+ 1894  sudo make install
+ 1895  hostapd
+ 1896  hostapd -d /etc/hostapd/hostapd.conf
+ 1897  hostapd -d ~/hostapd.
+ 1898  hostapd -d ~/hostapd.conf 
+ 1899  sudo hostapd -d ~/hostapd.conf 
+ 1900  sudo service hostapd restart
+ 1901  ls
+ 1902  cd /etc/hostapd/
+ 1903  ls
+ 1904  sudo vim hostapd.conf
+ 1905  sudo cp hostapd.conf ~/hostapd.conf.bk
+ 1906  sudo cp ~/hostapd.conf .
+ 1907  vim -p hostapd.conf ~/hostapd.conf.bk
+ 1908  sudo service hostapd restart
+ 1909  ifconfig
+ 1910  pgrep hostapd
+ 1911  kill -9 5479 5667
+ 1912  sudo kill -9 5479 5667
+ 1913  kill -9 5479 5667
+ 1914  pgrep hostapd
+ 1915  sudo service hostapd restart
+ 1916  ifconfig
+ 1917  ifconfig -a
+ 1918  sudo vim /etc/network/interfaces
+ 1919  sudo ifconfig wlan1 up
+ 1920  ifconfig
+ 1921  sudo ifconfig wlan1 down
+ 1922  ifconfig
+ 1923  sudo ifconfig wlan1 up
+ 1924  ls
+ 1925  ifconfig
+ 1926  sudo ifup wlan1
+ 1927  sudo ifdown wlan1
+ 1928  sudo ifup wlan1
+ 1929  ifconfig
+ 1930  ls
+ 1931  vim hostapd.conf
+ 1932  ifconfig
+ 1933  ifconfig wlan1
+ 1934  ifconfig
+ 1935  pgrep dhcpd
+ 1936  pgrep dhcp
+ 1937  pgrep dnsmasg
+ 1938  pgrep dnsmasq
+ 1939  ps -ef | grep 1277
+ 1940  sudo vim /etc/network/interfaces
+ 1941  sudo update-rc.d hostapd enable
+ 1942  sudo update-rc.d udhcpd enable
+ 1943  sudo service hostapd stop
+ 1944  sudo apt-get install isc-dhcp-server
+ 1945  sudo service
+ 1946  sudo service --status-all
+ 1947  sudo vim /etc/dhcp/dhcpd.conf 
+ 1948  sudo vim /etc/network/interfaces
+ 1949  sudo vim /etc/dhcp/dhcpd.conf 
+ 1950  sudo service isc-shcp-server start
+ 1951  sudo service isc-dhcp-server start
+ 1952  sudo service hostapd start
+ 1953  ls
+ 1954  cd ../dhcp/
+ 1955  sudo vim dhcpd.conf
+ 1956  sudo vim /etc/network/interfaces
+ 1957  sudo ifconfig wlan1 down
+ 1958  sudo ifconfig wlan1 up
+ 1959  ifconfig
+ 1960  sudo ifdown wlan1
+ 1961  sudo ifup wlan1
+ 1962  ifconfig
+ 1963  ls
+ 1964  sudo vim dhcpd.conf
+ 1965  sudo service isc-dhcp-server stop
+ 1966  sudo service hostapd stop
+ 1967  pgrep hostapd
+ 1968  pgrep dhcp
+ 1969  sudo service isc-dhcp-server start
+ 1970  sudo service hostapd start
+ 1971  sudo vim /etc/udhcpd.conf
+ 1972  sudo vim /etc/dhcp/dhcpd.conf
+ 1973  sudo service isc-dhcp-server stop
+ 1974  sudo service hostapd stop
+ 1975  sudo ifdown wlan1 && sudo ifup wlan1
+ 1976  ifconfig
+ 1977  sudo vim /etc/network/interfaces
+ 1978  sudo service udhcpd start
+ 1979  sudo service hostapd start
+ 1980  sudo service hostapd stop
+ 1981  sudo service udhcpd stop
+ 1982  sudo service isc-dhcp-server 
+ 1983  sudo service isc-dhcp-server stop
+ 1984  sudo service udhcpd start
+ 1985  sudo service hostapd start
+ 1986  sudo vim /etc/udhcpd.conf
+ 1987  sudo touch /var/lib/misc/udhcpd.leases 
+ 1988  sudo vim touch /var/lib/misc/udhcpd.leases
+ 1989  sudo vim /var/lib/misc/udhcpd.leases 
+ 1990  sudo vim /etc/default/udhcpd
+ 1991  sudo update-rc.d udhcpd
+ 1992  ifconfig
+ 1993  sudo vim /etc/hostapd/hostapd.conf
+ 1994  sudo vim /etc/default/hostapd
+ 1995  sudo update-rc.d hostapd enable
+ 1996  sudo update-rc.d udhcpd enable
+ 1997  sudo vim /etc/sysctl.conf
+ 1998  ls
+ 1999  sudo reboot
+ 2000  ls
+ 2001  ifconfig
+ 2002  sudo service networking start
+ 2003  ifconfig
+ 2004  sudo ifdown wlan1 && sudo ifup wlan1
+ 2005  ifconfig
+ 2006  pgrep hostapd
+ 2007  pgrep udhcpd
+ 2008  sudo service udhcpd start
+ 2009  sudo service hostapd restart
+ 2010  ifconfig
+ 2011  ls
+ 2012  vim history.txt~ 
+ 2013  history > history.txt

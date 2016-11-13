@@ -15,6 +15,7 @@ filename: index
 - [Setup Wifi Dongle](wifi)
 - [Setup arpose](arpose)
 - [Accessing GPS Data](gps)
+- [Wifi Access Point Mode](ap.md)
 
 ## Useful Links
 - [flashing os images to sd cards](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
