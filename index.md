@@ -21,3 +21,4 @@ filename: index
 - [flashing os images to sd cards](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
 - [ARM ros install](http://wiki.ros.org/indigo/Installation/UbuntuARM)
 - [ROS setup shell scripts repository](https://github.com/olinrobotics/Odroid_Setup)
+- [Reformatting bricked SD cards- Windows/Mac](https://www.sdcard.org/downloads/formatter_4/index.html)
