@@ -83,3 +83,9 @@ filename: wifi
    ping www.google.com
    ```
 
+
+## TroubleShooting
+
+If it seems that the Wifi interface doesn't get brought up in the start,
+it's possible that your physical device was named something other than wlan0.
+For a simple hack, just modify 70-persistent-net.rules and rename **your** interface as eth0.
