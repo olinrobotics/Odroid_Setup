@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/c,c++,python,linux,vim,git
+# Created by https://www.gitignore.io/api/c,c++,python,linux,vim,git,jekyll
 
 ### C ###
 # Prerequisites
@@ -10,6 +9,11 @@
 *.ko
 *.obj
 *.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -38,26 +42,26 @@
 # Debug files
 *.dSYM/
 *.su
+*.idb
+*.pdb
 
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
 ### C++ ###
 # Prerequisites
-*.d
 
 # Compiled Object files
 *.slo
-*.lo
-*.o
-*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -65,15 +69,31 @@
 
 # Compiled Static libraries
 *.lai
-*.la
-*.a
-*.lib
 
 # Executables
-*.exe
-*.out
-*.app
 
+### Git ###
+*.orig
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -82,7 +102,6 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -98,6 +117,7 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -144,7 +164,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+# Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -157,6 +177,7 @@ celerybeat-schedule
 .env
 
 # virtualenv
+.venv
 venv/
 ENV/
 
@@ -166,32 +187,17 @@ ENV/
 # Rope project settings
 .ropeproject
 
-
-### Linux ###
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-
 ### Vim ###
 # swap
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
 # session
 Session.vim
 # temporary
 .netrwhist
-*~
 # auto-generated tag files
 tags
 
-
-### Git ###
-*.orig
+# End of https://www.gitignore.io/api/c,c++,python,linux,vim,git,jekyll
